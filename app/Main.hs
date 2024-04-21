@@ -3,7 +3,8 @@ module Main where
 import Graphics.Gloss
 
 import Chess
+import Draw
 
 main :: IO ()
-main = display (InWindow "Nice Window" (200, 200) (10, 10)) white (Circle 80)
+main = display (InWindow "Test" (800, 800) (10, 10)) white (circleSolid 80)
 

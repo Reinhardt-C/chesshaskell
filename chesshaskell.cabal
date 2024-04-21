@@ -18,7 +18,7 @@ common warnings
 executable chesshaskell
     import:           warnings
     main-is:          Main.hs
-    other-modules:    Chess
+    other-modules:    Chess, Draw
     -- other-extensions:
     build-depends:    base ^>=4.19.1.0, gloss, containers
     hs-source-dirs:   app
